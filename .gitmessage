@@ -1,0 +1,30 @@
+
+
+#
+# <type> : <subject>
+##### Subject 50 characters ################# -> |
+# [BLANK LINE]
+# content(optional)
+######## Body 72 characters ####################################### -> |
+# [BLANK LINE]
+# footer(optional) : commit meta info
+#   "BREAKING CHANGE:"
+#   [BLANK LINE]
+#   Issue Tracker Number or URL
+
+# --- COMMIT END ---
+# <type> list
+#   feat - A new feature (minor)
+#   fix - A bug fix (patch)
+#   perf - A code change that improves performance
+#   refactor - A code change that neither fixes a bug or adds a feature
+#   style - Markup, white-space, formatting, missing semi-colons...
+#   test - Adding missing tests
+#   build - Build process or auxiliary tool changes
+#   docs - Documentation only changes
+#   chore - etc
+
+# ----------
+# Separate subject from body with a blank line
+# Use the body to explain "what" and "why" vs how
+
